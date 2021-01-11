@@ -9,12 +9,11 @@ body {
     background-color: lightgray;
     font-size: xx-large;
     background: url("../img/bg-1.jpg");
+    color: white;
 }
 
 form {
     position: absolute;
-    /* height: 30em;
-    width: 20em; */
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -22,7 +21,6 @@ form {
     background: linear-gradient(0deg, rgba(13,156,213,1) 0%, rgba(15,99,179,1) 100%);
     padding: 2em;
     text-align: center;
-    color: white;
 }
 
 fieldset {
@@ -30,15 +28,26 @@ fieldset {
     border: none;
 }
 
-input {
+legend {
+    font-weight: bold;
+}
+
+input, p {
     font-size: medium;
+}
+
+p {
+    margin-top: 0.5em;
+}
+
+input {
     color: white;
 }
 
 input[type="text"] {
     border: none;
     border-bottom: solid white;
-    margin-top: 2em;
+    margin-top: 1em;
     padding: 0.5em 1em;
     background: none;
 }
